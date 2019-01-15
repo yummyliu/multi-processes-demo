@@ -1,0 +1,11 @@
+# read nginx code & write some code based on libusual
+
+# todo
+
+master spwan fixed size worker at start, every worker hold an client cache;
+
+client cache info <-> master
+
+based on client cache to loadbalance, transform accept client socket fd to worker
+
+client connect to its fixed worker
